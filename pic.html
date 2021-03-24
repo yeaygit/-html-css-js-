@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>PICTURE</title>
+		<meta charset="utf-8">
+	</head>
+
+	<style>
+			a{
+				color:black;
+				text-decoration:none;
+			}
+			h1{
+				font-size:45px;
+				text-align:center;
+				
+				border-bottom:2px solid gray;
+				margin:0px;
+				padding:30px;
+			}
+			ol{
+				border-right:2px solid gray;
+				margin:0px;
+				width: 140px;
+				padding:20px;
+			}
+			body{
+				margin:0px;
+			}
+			#grid{
+				display:grid;
+				grid-template-columns:180px 1fr;
+			}
+			#pic{
+				margin:0px;
+				padding:20px;
+			}
+		</style>
+	<script src="color.js"></script>
+	<body>
+		<h1><strong> 사진 </strong></h1>
+		<div id="grid">
+		<ol>
+			<li><a href="beads.html" title="비즈">비즈공예</a></li>
+			<li><a href="pic.html" title ="사진">사진</a></li>
+			<li><a href="baking.html" title ="베이킹">베이킹</a></li>
+			<li><a href="diary.html" title ="베이킹">다이어리 꾸미기</a></li>
+			<li><a href="baseball.html" title ="야구관람">야구관람</a></li>
+		</ol>
+			<div id="pic">
+			<input type ="button" value="night" onclick="
+					nightDayHandler(this);
+						
+				">
+			<h3 style="background-color:Lemonchiffon;color:cornflowerblue;">무지개 사진</h3>
+			집 앞에서 너무 선명하게 보게 된 무지개
+			<br><img src="pic.jpg" width="30%">
+			<h3 style="background-color:Lemonchiffon;color:cornflowerblue;">가장 오래된 나무</h3>
+			강원도 원주, 문막읍에서 가장 유명한 나무 가을에 가면 더 멋있다.
+			<br><img src="tree.jpg" width="30%">
+			<h3 style="background-color:Lemonchiffon;color:cornflowerblue;">날씨 좋은날</h3>
+			날씨가 너무 좋은날 방에서 찍은 사진
+			<br><img src="room.jpg" width="30%">
+			</div>
+		</div>
+	</body>
+</html>
